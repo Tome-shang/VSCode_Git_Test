@@ -241,7 +241,7 @@ void student::Find(){
     {
         if (num.compare(itor->getNumber())==0||num.compare(itor->getName())==0)
         {
-            cout<<found it!!"<<endl;
+            cout<<"found it!!"<<endl;
             break;
         }
     }
